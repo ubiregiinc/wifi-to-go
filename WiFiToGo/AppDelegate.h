@@ -12,4 +12,12 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+- (NSString *)currentConnectedSSID;
+
+@end
+
+@interface UIViewController (AppDelegate)
+
+@property (nonatomic, readonly) AppDelegate* appDelegate;
+
 @end

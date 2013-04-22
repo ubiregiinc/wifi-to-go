@@ -17,12 +17,26 @@
 		AB53EC661722D6E80054E4F0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB53EC651722D6E80054E4F0 /* Default@2x.png */; };
 		AB53EC681722D6E80054E4F0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB53EC671722D6E80054E4F0 /* Default-568h@2x.png */; };
 		AB53EC6B1722D6E80054E4F0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB53EC691722D6E80054E4F0 /* MainStoryboard.storyboard */; };
-		AB53EC6E1722D6E80054E4F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB53EC6D1722D6E80054E4F0 /* ViewController.m */; };
 		AB53EC761722D6E80054E4F0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB53EC751722D6E80054E4F0 /* SenTestingKit.framework */; };
 		AB53EC771722D6E80054E4F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB53EC511722D6E80054E4F0 /* UIKit.framework */; };
 		AB53EC781722D6E80054E4F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB53EC531722D6E80054E4F0 /* Foundation.framework */; };
 		AB53EC801722D6E80054E4F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB53EC7E1722D6E80054E4F0 /* InfoPlist.strings */; };
 		AB53EC831722D6E80054E4F0 /* WiFiToGoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB53EC821722D6E80054E4F0 /* WiFiToGoTests.m */; };
+		AB53EC8D1722D72B0054E4F0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB53EC8C1722D72B0054E4F0 /* SystemConfiguration.framework */; };
+		AB53EC901722DA290054E4F0 /* LogsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB53EC8F1722DA290054E4F0 /* LogsTableViewController.m */; };
+		AB53EC931722DBB40054E4F0 /* AddNewLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB53EC921722DBB40054E4F0 /* AddNewLogViewController.m */; };
+		AB53EC951722DC1E0054E4F0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB53EC941722DC1E0054E4F0 /* MapKit.framework */; };
+		AB53EC981722DD8F0054E4F0 /* icon_sending_white_1.png in Resources */ = {isa = PBXBuildFile; fileRef = AB53EC971722DD8F0054E4F0 /* icon_sending_white_1.png */; };
+		AB53EC9A1722DDB80054E4F0 /* newcustomer_picturebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = AB53EC991722DDB80054E4F0 /* newcustomer_picturebutton.png */; };
+		AB53EC9D1722E2A50054E4F0 /* extension_connect_ok.png in Resources */ = {isa = PBXBuildFile; fileRef = AB53EC9B1722E2A50054E4F0 /* extension_connect_ok.png */; };
+		AB53EC9E1722E2A50054E4F0 /* extension_connect_power.png in Resources */ = {isa = PBXBuildFile; fileRef = AB53EC9C1722E2A50054E4F0 /* extension_connect_power.png */; };
+		AB53ECA1172304A80054E4F0 /* WGLog.m in Sources */ = {isa = PBXBuildFile; fileRef = AB53ECA0172304A80054E4F0 /* WGLog.m */; };
+		AB53ECA31723059B0054E4F0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB53ECA21723059B0054E4F0 /* CoreLocation.framework */; };
+		AB53ECAE1723078B0054E4F0 /* NSDate+ISO8601.m in Sources */ = {isa = PBXBuildFile; fileRef = AB53ECAD1723078B0054E4F0 /* NSDate+ISO8601.m */; };
+		AB53ECB0172309F60054E4F0 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = AB53ECAF172309F60054E4F0 /* NSData+Base64.m */; };
+		AB53ECB417230C800054E4F0 /* WGResult.m in Sources */ = {isa = PBXBuildFile; fileRef = AB53ECB317230C800054E4F0 /* WGResult.m */; };
+		AB53ECB617230F1D0054E4F0 /* UIImage+UB.m in Sources */ = {isa = PBXBuildFile; fileRef = AB53ECB517230F1D0054E4F0 /* UIImage+UB.m */; };
+		AB53ECBA1723337E0054E4F0 /* LogDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB53ECB91723337E0054E4F0 /* LogDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,14 +64,35 @@
 		AB53EC651722D6E80054E4F0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		AB53EC671722D6E80054E4F0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AB53EC6A1722D6E80054E4F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		AB53EC6C1722D6E80054E4F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AB53EC6D1722D6E80054E4F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AB53EC741722D6E80054E4F0 /* WiFiToGoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiFiToGoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB53EC751722D6E80054E4F0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		AB53EC7D1722D6E80054E4F0 /* WiFiToGoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WiFiToGoTests-Info.plist"; sourceTree = "<group>"; };
 		AB53EC7F1722D6E80054E4F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB53EC811722D6E80054E4F0 /* WiFiToGoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WiFiToGoTests.h; sourceTree = "<group>"; };
 		AB53EC821722D6E80054E4F0 /* WiFiToGoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiFiToGoTests.m; sourceTree = "<group>"; };
+		AB53EC8C1722D72B0054E4F0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AB53EC8E1722DA290054E4F0 /* LogsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogsTableViewController.h; sourceTree = "<group>"; };
+		AB53EC8F1722DA290054E4F0 /* LogsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogsTableViewController.m; sourceTree = "<group>"; };
+		AB53EC911722DBB40054E4F0 /* AddNewLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewLogViewController.h; sourceTree = "<group>"; };
+		AB53EC921722DBB40054E4F0 /* AddNewLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewLogViewController.m; sourceTree = "<group>"; };
+		AB53EC941722DC1E0054E4F0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AB53EC971722DD8F0054E4F0 /* icon_sending_white_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_sending_white_1.png; sourceTree = "<group>"; };
+		AB53EC991722DDB80054E4F0 /* newcustomer_picturebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newcustomer_picturebutton.png; sourceTree = "<group>"; };
+		AB53EC9B1722E2A50054E4F0 /* extension_connect_ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = extension_connect_ok.png; sourceTree = "<group>"; };
+		AB53EC9C1722E2A50054E4F0 /* extension_connect_power.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = extension_connect_power.png; sourceTree = "<group>"; };
+		AB53EC9F172304A80054E4F0 /* WGLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLog.h; sourceTree = "<group>"; };
+		AB53ECA0172304A80054E4F0 /* WGLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLog.m; sourceTree = "<group>"; };
+		AB53ECA21723059B0054E4F0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AB53ECAC1723078B0054E4F0 /* NSDate+ISO8601.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ISO8601.h"; sourceTree = "<group>"; };
+		AB53ECAD1723078B0054E4F0 /* NSDate+ISO8601.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ISO8601.m"; sourceTree = "<group>"; };
+		AB53ECAF172309F60054E4F0 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		AB53ECB117230A010054E4F0 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		AB53ECB217230C800054E4F0 /* WGResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGResult.h; sourceTree = "<group>"; };
+		AB53ECB317230C800054E4F0 /* WGResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGResult.m; sourceTree = "<group>"; };
+		AB53ECB517230F1D0054E4F0 /* UIImage+UB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UB.m"; sourceTree = "<group>"; };
+		AB53ECB717230F2B0054E4F0 /* UIImage+UB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UB.h"; sourceTree = "<group>"; };
+		AB53ECB81723337E0054E4F0 /* LogDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogDetailViewController.h; sourceTree = "<group>"; };
+		AB53ECB91723337E0054E4F0 /* LogDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +100,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB53ECA31723059B0054E4F0 /* CoreLocation.framework in Frameworks */,
+				AB53EC951722DC1E0054E4F0 /* MapKit.framework in Frameworks */,
+				AB53EC8D1722D72B0054E4F0 /* SystemConfiguration.framework in Frameworks */,
 				AB53EC521722D6E80054E4F0 /* UIKit.framework in Frameworks */,
 				AB53EC541722D6E80054E4F0 /* Foundation.framework in Frameworks */,
 				AB53EC561722D6E80054E4F0 /* CoreGraphics.framework in Frameworks */,
@@ -89,6 +127,7 @@
 			children = (
 				AB53EC571722D6E80054E4F0 /* WiFiToGo */,
 				AB53EC7B1722D6E80054E4F0 /* WiFiToGoTests */,
+				AB53EC961722DD760054E4F0 /* Images */,
 				AB53EC501722D6E80054E4F0 /* Frameworks */,
 				AB53EC4F1722D6E80054E4F0 /* Products */,
 			);
@@ -106,6 +145,9 @@
 		AB53EC501722D6E80054E4F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AB53ECA21723059B0054E4F0 /* CoreLocation.framework */,
+				AB53EC941722DC1E0054E4F0 /* MapKit.framework */,
+				AB53EC8C1722D72B0054E4F0 /* SystemConfiguration.framework */,
 				AB53EC511722D6E80054E4F0 /* UIKit.framework */,
 				AB53EC531722D6E80054E4F0 /* Foundation.framework */,
 				AB53EC551722D6E80054E4F0 /* CoreGraphics.framework */,
@@ -120,9 +162,23 @@
 				AB53EC601722D6E80054E4F0 /* AppDelegate.h */,
 				AB53EC611722D6E80054E4F0 /* AppDelegate.m */,
 				AB53EC691722D6E80054E4F0 /* MainStoryboard.storyboard */,
-				AB53EC6C1722D6E80054E4F0 /* ViewController.h */,
-				AB53EC6D1722D6E80054E4F0 /* ViewController.m */,
 				AB53EC581722D6E80054E4F0 /* Supporting Files */,
+				AB53EC8E1722DA290054E4F0 /* LogsTableViewController.h */,
+				AB53EC8F1722DA290054E4F0 /* LogsTableViewController.m */,
+				AB53EC911722DBB40054E4F0 /* AddNewLogViewController.h */,
+				AB53EC921722DBB40054E4F0 /* AddNewLogViewController.m */,
+				AB53ECAC1723078B0054E4F0 /* NSDate+ISO8601.h */,
+				AB53ECAD1723078B0054E4F0 /* NSDate+ISO8601.m */,
+				AB53ECB117230A010054E4F0 /* NSData+Base64.h */,
+				AB53ECAF172309F60054E4F0 /* NSData+Base64.m */,
+				AB53ECB717230F2B0054E4F0 /* UIImage+UB.h */,
+				AB53ECB517230F1D0054E4F0 /* UIImage+UB.m */,
+				AB53EC9F172304A80054E4F0 /* WGLog.h */,
+				AB53ECA0172304A80054E4F0 /* WGLog.m */,
+				AB53ECB217230C800054E4F0 /* WGResult.h */,
+				AB53ECB317230C800054E4F0 /* WGResult.m */,
+				AB53ECB81723337E0054E4F0 /* LogDetailViewController.h */,
+				AB53ECB91723337E0054E4F0 /* LogDetailViewController.m */,
 			);
 			path = WiFiToGo;
 			sourceTree = "<group>";
@@ -158,6 +214,17 @@
 				AB53EC7E1722D6E80054E4F0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB53EC961722DD760054E4F0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AB53EC971722DD8F0054E4F0 /* icon_sending_white_1.png */,
+				AB53EC991722DDB80054E4F0 /* newcustomer_picturebutton.png */,
+				AB53EC9B1722E2A50054E4F0 /* extension_connect_ok.png */,
+				AB53EC9C1722E2A50054E4F0 /* extension_connect_power.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +303,10 @@
 				AB53EC661722D6E80054E4F0 /* Default@2x.png in Resources */,
 				AB53EC681722D6E80054E4F0 /* Default-568h@2x.png in Resources */,
 				AB53EC6B1722D6E80054E4F0 /* MainStoryboard.storyboard in Resources */,
+				AB53EC981722DD8F0054E4F0 /* icon_sending_white_1.png in Resources */,
+				AB53EC9A1722DDB80054E4F0 /* newcustomer_picturebutton.png in Resources */,
+				AB53EC9D1722E2A50054E4F0 /* extension_connect_ok.png in Resources */,
+				AB53EC9E1722E2A50054E4F0 /* extension_connect_power.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +343,14 @@
 			files = (
 				AB53EC5E1722D6E80054E4F0 /* main.m in Sources */,
 				AB53EC621722D6E80054E4F0 /* AppDelegate.m in Sources */,
-				AB53EC6E1722D6E80054E4F0 /* ViewController.m in Sources */,
+				AB53EC901722DA290054E4F0 /* LogsTableViewController.m in Sources */,
+				AB53EC931722DBB40054E4F0 /* AddNewLogViewController.m in Sources */,
+				AB53ECA1172304A80054E4F0 /* WGLog.m in Sources */,
+				AB53ECAE1723078B0054E4F0 /* NSDate+ISO8601.m in Sources */,
+				AB53ECB0172309F60054E4F0 /* NSData+Base64.m in Sources */,
+				AB53ECB417230C800054E4F0 /* WGResult.m in Sources */,
+				AB53ECB617230F1D0054E4F0 /* UIImage+UB.m in Sources */,
+				AB53ECBA1723337E0054E4F0 /* LogDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
